@@ -1,0 +1,101 @@
+﻿body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  color: white;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  position: fixed;
+  width: 100%;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.hero img {
+  width: 250px;
+  border-radius: 20px;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  gap: 40px;
+  padding: 80px;
+}
+
+.about img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 80px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 80px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  background: #ffd6ff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+}

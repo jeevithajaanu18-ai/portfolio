@@ -1,0 +1,345 @@
+/* About Page Styles */
+
+.about-page {
+  min-height: 100vh;
+}
+
+.page-hero {
+  background: linear-gradient(135deg, #0066ff, #ff6b6b);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.page-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.page-hero-content p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.about-intro {
+  padding: 80px 20px;
+  background: white;
+}
+
+.intro-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.intro-text h2 {
+  font-size: 2.2rem;
+  color: #0066ff;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.intro-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, #f5f7fa, #e8f0ff);
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  border-left: 4px solid #0066ff;
+}
+
+.stat-box h3 {
+  font-size: 1.8rem;
+  color: #0066ff;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  color: #666;
+}
+
+.experience {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8f0ff 100%);
+}
+
+.experience .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  background: linear-gradient(135deg, #0066ff, #ff6b6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #0066ff;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 100px;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  width: 32px;
+  height: 32px;
+  background: white;
+  border: 3px solid #0066ff;
+  border-radius: 50%;
+}
+
+.timeline-content {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.timeline-content .year {
+  color: #0066ff;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.timeline-content h3 {
+  font-size: 1.3rem;
+  color: #1a1a2e;
+  margin: 10px 0 5px 0;
+}
+
+.timeline-content .company {
+  color: #ff6b6b;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.skills-section {
+  padding: 80px 20px;
+  background: white;
+}
+
+.skills-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  background: linear-gradient(135deg, #0066ff, #ff6b6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.skills-matrix {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.skill-category {
+  background: linear-gradient(135deg, #f5f7fa, #e8f0ff);
+  padding: 30px;
+  border-radius: 12px;
+  border-left: 4px solid #0066ff;
+}
+
+.skill-category h3 {
+  color: #0066ff;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.skill-category ul {
+  list-style: none;
+}
+
+.skill-category li {
+  padding: 8px 0;
+  color: #666;
+  position: relative;
+  padding-left: 20px;
+}
+
+.skill-category li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #0066ff;
+  font-weight: bold;
+}
+
+.certifications {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8f0ff 100%);
+}
+
+.certifications .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certifications h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  background: linear-gradient(135deg, #0066ff, #ff6b6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.cert-card {
+  background: white;
+  padding: 40px 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.cert-icon {
+  color: #0066ff;
+  margin-bottom: 15px;
+}
+
+.cert-card h3 {
+  font-size: 1.1rem;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+.cert-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.philosophy {
+  padding: 80px 20px;
+  background: white;
+}
+
+.philosophy .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.philosophy h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  background: linear-gradient(135deg, #0066ff, #ff6b6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.philosophy-card {
+  background: linear-gradient(135deg, #f5f7fa, #e8f0ff);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.philosophy-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 102, 255, 0.1);
+}
+
+.philosophy-card svg {
+  color: #0066ff;
+  margin-bottom: 15px;
+}
+
+.philosophy-card h3 {
+  font-size: 1.2rem;
+  color: #1a1a2e;
+  margin-bottom: 10px;
+}
+
+.philosophy-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .timeline::before {
+    left: 15px;
+  }
+
+  .timeline-marker {
+    left: 2px;
+  }
+
+  .timeline-item {
+    padding-left: 50px;
+  }
+}
